@@ -36,14 +36,14 @@
   <p>
     <a href="https://hoppscotch.io/#gh-light-mode-only" target="_blank">
       <img
-        src="./packages/hoppscotch-app/static/images/banner-light.png"
+        src="./packages/hoppscotch-app/public/images/banner-light.png"
         alt="Hoppscotch"
         width="100%"
       />
     </a>
     <a href="https://hoppscotch.io/#gh-dark-mode-only" target="_blank">
       <img
-        src="./packages/hoppscotch-app/static/images/banner-dark.png"
+        src="./packages/hoppscotch-app/public/images/banner-dark.png"
         alt="Hoppscotch"
         width="100%"
       />
@@ -84,7 +84,7 @@
 
 _Customized themes are synced with cloud / local session_
 
-🔥 **PWA:** Install as a [PWA](https://developers.google.com/web/progressive-web-apps) on your device.
+🔥 **PWA:** Install as a [PWA](https://web.dev/what-are-pwas/) on your device.
 
 - Instant loading with Service Workers
 - Offline support

@@ -1,17 +1,23 @@
 {
   "action": {
+    "autoscroll": "Autoscroll",
     "cancel": "Avbryt",
     "choose_file": "Velg en fil",
     "clear": "Tøm",
     "clear_all": "Tøm alt",
+    "close": "Close",
     "connect": "Koble",
+    "connecting": "Connecting",
     "copy": "Kopiere",
     "delete": "Slett",
     "disconnect": "Koble fra",
     "dismiss": "Avbryt",
+    "dont_save": "Don't save",
     "download_file": "Last ned fil",
+    "drag_to_reorder": "Drag to reorder",
     "duplicate": "Duplicate",
     "edit": "Rediger",
+    "filter_response": "Filter response",
     "go_back": "Gå tilbake",
     "label": "Merkelapp",
     "learn_more": "Lær mer",
@@ -19,14 +25,18 @@
     "more": "Mer",
     "new": "Ny",
     "no": "Nei",
+    "open_workspace": "Open workspace",
     "paste": "Paste",
     "prettify": "Forskjønn",
     "remove": "Ta bort",
     "restore": "Gjenopprett",
     "save": "Lagre",
+    "scroll_to_bottom": "Scroll to bottom",
+    "scroll_to_top": "Scroll to top",
     "search": "Søk",
     "send": "Sende",
     "start": "Start",
+    "starting": "Starting",
     "stop": "Stoppe",
     "to_close": "to close",
     "to_navigate": "to navigate",
@@ -44,6 +54,10 @@
     "chat_with_us": "Snakk med oss",
     "contact_us": "Kontakt oss",
     "copy": "Kopiere",
+    "copy_user_id": "Copy User Auth Token",
+    "developer_option": "Developer options",
+    "developer_option_description": "Developer tools which helps in development and maintenance of Hoppscotch.",
+    "discord": "Discord",
     "documentation": "Dokumentasjon",
     "github": "GitHub",
     "help": "Hjelp, tilbakemelding og dokumentasjon",
@@ -55,6 +69,7 @@
     "keyboard_shortcuts": "Tastatursnarveier",
     "name": "Hoppscotch",
     "new_version_found": "Ny versjon funnet. Last ned for å oppdatere.",
+    "options": "Options",
     "proxy_privacy_policy": "Personvernerklæring for proxy",
     "reload": "Last på nytt",
     "search": "Søk",
@@ -62,6 +77,7 @@
     "shortcuts": "Snarveier",
     "spotlight": "Spotlight",
     "status": "Status",
+    "status_description": "Check the status of the website",
     "terms_and_privacy": "Vilkår og personvern",
     "twitter": "Twitter",
     "type_a_command_search": "Skriv inn en kommando eller søk ...",
@@ -124,6 +140,7 @@
     "remove_request": "Er du sikker på at du vil slette denne forespørselen for godt?",
     "remove_team": "Er du sikker på at du vil slette dette laget?",
     "remove_telemetry": "Er du sikker på at du vil velge bort telemetri?",
+    "request_change": "Are you sure you want to discard current request, unsaved changes will be lost.",
     "sync": "Er du sikker på at du vil synkronisere dette arbeidsområdet?"
   },
   "count": {
@@ -153,9 +170,10 @@
     "members": "Teamet er tomt",
     "parameters": "Denne forespørselen har ingen parametere",
     "pending_invites": "There are no pending invites for this team",
-    "profile": "Login in to view your profile",
+    "profile": "Login to view your profile",
     "protocols": "Protokoller er tomme",
     "schema": "Koble til et GraphQL-endepunkt",
+    "shortcodes": "Shortcodes are empty",
     "team_name": "Lagnavnet er tomt",
     "teams": "Lagene er tomme",
     "tests": "Det er ingen tester for denne forespørselen"
@@ -164,14 +182,17 @@
     "add_to_global": "Add to Global",
     "added": "Environment addition",
     "create_new": "Skap nytt miljø",
+    "created": "Environment created",
     "deleted": "Environment deletion",
     "edit": "Rediger miljø",
     "invalid_name": "Oppgi et gyldig navn på miljøet",
+    "my_environments": "My Environments",
     "nested_overflow": "nested environment variables are limited to 10 levels",
     "new": "Nytt miljø",
     "no_environment": "Ingen miljø",
     "no_environment_description": "No environments were selected. Choose what to do with the following variables.",
     "select": "Velg miljø",
+    "team_environments": "Team Environments",
     "title": "Miljøer",
     "updated": "Environment updation",
     "variable_list": "Variabel liste"
@@ -187,10 +208,13 @@
     "incorrect_email": "Incorrect email",
     "invalid_link": "Invalid link",
     "invalid_link_description": "The link you clicked is invalid or expired.",
+    "json_parsing_failed": "Invalid JSON",
     "json_prettify_invalid_body": "Kunne ikke forskjønne et ugyldig brødtekst, løse json -syntaksfeil og prøve igjen",
     "network_error": "There seems to be a network error. Please try again.",
     "network_fail": "Kunne ikke sende forespørsel",
     "no_duration": "Ingen varighet",
+    "no_results_found": "No matches found",
+    "page_not_found": "This page could not be found",
     "script_fail": "Kunne ikke kjøre forhåndsforespørselsskript",
     "something_went_wrong": "Noe gikk galt",
     "test_script_fail": "Could not execute post-request script"
@@ -233,6 +257,7 @@
     "tests": "Skriv et testskript for å automatisere feilsøking."
   },
   "hide": {
+    "collection": "Collapse Collection Panel",
     "more": "Skjul mer",
     "preview": "Skjul forhåndsvisning",
     "sidebar": "Skjul sidefeltet"
@@ -255,11 +280,18 @@
     "from_postman_description": "Import from Postman collection",
     "from_url": "Import from URL",
     "gist_url": "Skriv inn Gist URL",
+    "import_from_url_invalid_fetch": "Couldn't get data from the url",
+    "import_from_url_invalid_file_format": "Error while importing collections",
+    "import_from_url_invalid_type": "Unsupported type. accepted values are 'hoppscotch', 'openapi', 'postman', 'insomnia'",
+    "import_from_url_success": "Collections Imported",
     "json_description": "Import collections from a Hoppscotch Collections JSON file",
     "title": "Import"
   },
   "layout": {
+    "collapse_collection": "Collapse or Expand Collections",
+    "collapse_sidebar": "Collapse or Expand the sidebar",
     "column": "Vertical layout",
+    "name": "Layout",
     "row": "Horizontal layout",
     "zen_mode": "Zen-modus"
   },
@@ -297,6 +329,7 @@
   },
   "profile": {
     "app_settings": "App Settings",
+    "default_hopp_displayname": "Unnamed User",
     "editor": "Editor",
     "editor_description": "Editors can add, edit, and delete requests.",
     "email_verification_mail": "A verification email has been sent to your email address. Please click on the link to verify your email address.",
@@ -318,6 +351,11 @@
     "body": "Forespørselsorgan",
     "choose_language": "Velg språk",
     "content_type": "Innholdstype",
+    "content_type_titles": {
+      "others": "Others",
+      "structured": "Structured",
+      "text": "Text"
+    },
     "copy_link": "Kopier link",
     "duration": "Varighet",
     "enter_curl": "Skriv inn cURL",
@@ -327,6 +365,10 @@
     "invalid_name": "Oppgi et navn på forespørselen",
     "method": "Metode",
     "name": "Forespørselsnavn",
+    "new": "New Request",
+    "override": "Override",
+    "override_help": "Set <kbd>Content-Type</kbd> in Headers",
+    "overriden": "Overridden",
     "parameter_list": "Spørringsparametere",
     "parameters": "Parametere",
     "path": "Sti",
@@ -339,13 +381,16 @@
     "save_as": "Lagre som",
     "saved": "Forespørselen er lagret",
     "share": "Dele",
+    "share_description": "Share Hoppscotch with your friends",
     "title": "Be om",
     "type": "Type forespørsel",
     "url": "URL",
-    "variables": "Variabler"
+    "variables": "Variabler",
+    "view_my_links": "View my links"
   },
   "response": {
     "body": "Svarkropp",
+    "filter_response_body": "Filter JSON response body (uses JSONPath syntax)",
     "headers": "Overskrifter",
     "html": "HTML",
     "image": "Bilde",
@@ -378,6 +423,7 @@
     "extension_version": "Utvidelsesversjon",
     "extensions": "Utvidelser",
     "extensions_use_toggle": "Bruk nettleserutvidelsen til å sende forespørsler (hvis de er tilstede)",
+    "follow": "Follow Us",
     "font_size": "Skriftstørrelse",
     "font_size_large": "Stor",
     "font_size_medium": "Medium",
@@ -396,6 +442,8 @@
     "proxy_use_toggle": "Bruk proxy-mellomvaren til å sende forespørsler",
     "read_the": "Les",
     "reset_default": "Tilbakestill til standard",
+    "short_codes": "Short codes",
+    "short_codes_description": "Short codes which were created by you.",
     "sidebar_on_left": "Sidebar on left",
     "sync": "Synkroniser",
     "sync_collections": "Samlinger",
@@ -409,7 +457,17 @@
     "theme_description": "Tilpass søknadstemaet ditt.",
     "use_experimental_url_bar": "Bruk en eksperimentell URL-linje med utheving av miljøet",
     "user": "Bruker",
+    "verified_email": "Verified email",
     "verify_email": "Verify email"
+  },
+  "shortcodes": {
+    "actions": "Actions",
+    "created_on": "Created on",
+    "deleted": "Shortcode deleted",
+    "method": "Method",
+    "not_found": "Shortcode not found",
+    "short_code": "Short code",
+    "url": "URL"
   },
   "shortcut": {
     "general": {
@@ -449,6 +507,11 @@
       "send_request": "Send forespørsel",
       "title": "Be om"
     },
+    "response": {
+      "copy": "Copy response to clipboard",
+      "download": "Download response as file",
+      "title": "Response"
+    },
     "theme": {
       "black": "Switch  theme to black mode",
       "dark": "Switch  theme to  dark mode",
@@ -459,11 +522,13 @@
   },
   "show": {
     "code": "Vis kode",
+    "collection": "Expand Collection Panel",
     "more": "Vis mer",
     "sidebar": "Vis sidefeltet"
   },
   "socketio": {
     "communication": "Kommunikasjon",
+    "connection_not_authorized": "This SocketIO connection does not use any authentication.",
     "event_name": "Arrangementsnavn",
     "events": "arrangementer",
     "log": "Logg",
@@ -481,6 +546,9 @@
     "connected": "Tilkoblet",
     "connected_to": "Koblet til {name}",
     "connecting_to": "Kobler til {name} ...",
+    "connection_error": "Failed to connect",
+    "connection_failed": "Connection failed",
+    "connection_lost": "Connection lost",
     "copied_to_clipboard": "Kopiert til utklippstavlen",
     "deleted": "Slettet",
     "deprecated": "FORELDET",
@@ -495,8 +563,17 @@
     "history_deleted": "Historikk slettet",
     "linewrap": "Brekk linjer",
     "loading": "Laster inn ...",
+    "message_received": "Message: {message} arrived on topic: {topic}",
+    "mqtt_subscription_failed": "Something went wrong while subscribing to topic: {topic}",
     "none": "Ingen",
     "nothing_found": "Ingenting funnet for",
+    "published_error": "Something went wrong while publishing msg: {topic} to topic: {message}",
+    "published_message": "Published message: {message} to topic: {topic}",
+    "reconnection_error": "Failed to reconnect",
+    "subscribed_failed": "Failed to subscribe to topic: {topic}",
+    "subscribed_success": "Successfully subscribed to topic: {topic}",
+    "unsubscribed_failed": "Failed to unsubscribe from topic: {topic}",
+    "unsubscribed_success": "Successfully unsubscribed from topic: {topic}",
     "waiting_send_request": "Venter på å sende forespørsel"
   },
   "support": {
@@ -505,6 +582,7 @@
     "community": "Still spørsmål og hjelp andre",
     "documentation": "Les mer om Hoppscotch",
     "forum": "Still spørsmål og få svar",
+    "github": "Follow us on Github",
     "shortcuts": "Bla gjennom appen raskere",
     "team": "Ta kontakt med teamet",
     "title": "Brukerstøtte",
@@ -578,6 +656,11 @@
     "title": "Lag",
     "we_sent_invite_link": "We sent an invite link to all invitees!",
     "we_sent_invite_link_description": "Ask all invitees to check their inbox. Click on the link to join the team."
+  },
+  "team_environment": {
+    "deleted": "Environment Deleted",
+    "duplicate": "Environment Duplicated",
+    "not_found": "Environment not found."
   },
   "test": {
     "failed": "test failed",

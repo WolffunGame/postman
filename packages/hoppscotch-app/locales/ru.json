@@ -1,17 +1,23 @@
 {
   "action": {
+    "autoscroll": "Autoscroll",
     "cancel": "Отменить",
     "choose_file": "Выберите файл",
     "clear": "Очистить",
     "clear_all": "Очистить все",
+    "close": "Close",
     "connect": "Подключиться",
+    "connecting": "Connecting",
     "copy": "Скопировать",
     "delete": "Удалить",
     "disconnect": "Отключиться",
     "dismiss": "Скрыть",
+    "dont_save": "Don't save",
     "download_file": "Скачать файл",
+    "drag_to_reorder": "Drag to reorder",
     "duplicate": "Дублировать",
     "edit": "Редактировать",
+    "filter_response": "Filter response",
     "go_back": "Вернуться",
     "label": "Название",
     "learn_more": "Узнать больше",
@@ -19,14 +25,18 @@
     "more": "Больше",
     "new": "Создать новый",
     "no": "Нет",
+    "open_workspace": "Open workspace",
     "paste": "Paste",
     "prettify": "Форматировать",
     "remove": "Удалить",
     "restore": "Восстановить",
     "save": "Сохранить",
+    "scroll_to_bottom": "Scroll to bottom",
+    "scroll_to_top": "Scroll to top",
     "search": "Поиск",
     "send": "Отправить",
     "start": "Начать",
+    "starting": "Starting",
     "stop": "Стоп",
     "to_close": "to close",
     "to_navigate": "to navigate",
@@ -44,6 +54,10 @@
     "chat_with_us": "Связаться с нами",
     "contact_us": "Свяжитесь с нами",
     "copy": "Копировать",
+    "copy_user_id": "Copy User Auth Token",
+    "developer_option": "Developer options",
+    "developer_option_description": "Developer tools which helps in development and maintenance of Hoppscotch.",
+    "discord": "Discord",
     "documentation": "Документация",
     "github": "GitHub",
     "help": "Справка, отзывы и документация",
@@ -55,6 +69,7 @@
     "keyboard_shortcuts": "Горячие клавиши",
     "name": "Hoppscotch",
     "new_version_found": "Найдена новая версия. Перезагрузите для обновления.",
+    "options": "Options",
     "proxy_privacy_policy": "Политика конфиденциальности прокси",
     "reload": "Перезагрузить",
     "search": "Поиск",
@@ -62,8 +77,9 @@
     "shortcuts": "Ярлыки",
     "spotlight": "Прожектор",
     "status": "Статус",
+    "status_description": "Check the status of the website",
     "terms_and_privacy": "Условия и конфиденциальность",
-    "twitter": "Твиттер",
+    "twitter": "Twitter",
     "type_a_command_search": "Введите команду или выполните поиск…",
     "we_use_cookies": "Мы используем куки",
     "whats_new": "Что нового?",
@@ -124,6 +140,7 @@
     "remove_request": "Вы уверены, что хотите навсегда удалить этот запрос?",
     "remove_team": "Вы уверены, что хотите удалить эту команду?",
     "remove_telemetry": "Вы действительно хотите отказаться от телеметрии?",
+    "request_change": "Are you sure you want to discard current request, unsaved changes will be lost.",
     "sync": "Вы уверены, что хотите синхронизировать это рабочее пространство?"
   },
   "count": {
@@ -156,6 +173,7 @@
     "profile": "Войдите, чтобы просмотреть свой профиль",
     "protocols": "Протоколы пустые",
     "schema": "Подключиться к конечной точке GraphQL",
+    "shortcodes": "Shortcodes are empty",
     "team_name": "Название команды пусто",
     "teams": "Команды пустые",
     "tests": "Для этого запроса нет тестов"
@@ -164,14 +182,17 @@
     "add_to_global": "Add to Global",
     "added": "Environment addition",
     "create_new": "Создать новую среду",
+    "created": "Environment created",
     "deleted": "Environment deletion",
     "edit": "Редактировать среду",
     "invalid_name": "Укажите допустимое имя для среды",
+    "my_environments": "My Environments",
     "nested_overflow": "nested environment variables are limited to 10 levels",
     "new": "Новая среда",
     "no_environment": "Нет окружающей среды",
     "no_environment_description": "No environments were selected. Choose what to do with the following variables.",
     "select": "Выберите среду",
+    "team_environments": "Team Environments",
     "title": "Среды",
     "updated": "Environment updation",
     "variable_list": "Список переменных"
@@ -187,10 +208,13 @@
     "incorrect_email": "Incorrect email",
     "invalid_link": "Invalid link",
     "invalid_link_description": "Ссылка, по которой вы перешли, - недействительна, либо срок ее действия истек.",
+    "json_parsing_failed": "Invalid JSON",
     "json_prettify_invalid_body": "Не удалось определить недопустимое тело, устранить синтаксические ошибки json и повторить попытку.",
     "network_error": "Похоже, возникла проблема с соединением. Попробуйте еще раз.",
     "network_fail": "Не удалось отправить запрос",
     "no_duration": "Без продолжительности",
+    "no_results_found": "No matches found",
+    "page_not_found": "This page could not be found",
     "script_fail": "Не удалось выполнить сценарий предварительного запроса",
     "something_went_wrong": "Что-то пошло не так",
     "test_script_fail": "Could not execute post-request script"
@@ -233,6 +257,7 @@
     "tests": "Напишите тестовый сценарий для автоматизации отладки."
   },
   "hide": {
+    "collection": "Collapse Collection Panel",
     "more": "Скрыть больше",
     "preview": "Скрыть предварительный просмотр",
     "sidebar": "Скрыть боковую панель"
@@ -255,11 +280,18 @@
     "from_postman_description": "Import from Postman collection",
     "from_url": "Import from URL",
     "gist_url": "Введите URL-адрес Gist",
+    "import_from_url_invalid_fetch": "Couldn't get data from the url",
+    "import_from_url_invalid_file_format": "Error while importing collections",
+    "import_from_url_invalid_type": "Unsupported type. accepted values are 'hoppscotch', 'openapi', 'postman', 'insomnia'",
+    "import_from_url_success": "Collections Imported",
     "json_description": "Import collections from a Hoppscotch Collections JSON file",
     "title": "Импортировать"
   },
   "layout": {
+    "collapse_collection": "Collapse or Expand Collections",
+    "collapse_sidebar": "Collapse or Expand the sidebar",
     "column": "Вертикальное оформление",
+    "name": "Layout",
     "row": "Горизонтальное оформление",
     "zen_mode": "Спокойный режим"
   },
@@ -297,6 +329,7 @@
   },
   "profile": {
     "app_settings": "Настройки приложения",
+    "default_hopp_displayname": "Unnamed User",
     "editor": "Редактор",
     "editor_description": "Редакторы могут добавлять, редактировать, а так же удалять запросы.",
     "email_verification_mail": "На вашу электронную почту отправлено письмо для подтверждения. Перейдите по ссылке из письма, чтобы подтвердить свой электронный адрес.",
@@ -318,6 +351,11 @@
     "body": "Тело запроса",
     "choose_language": "Выберите язык",
     "content_type": "Тип содержимого",
+    "content_type_titles": {
+      "others": "Others",
+      "structured": "Structured",
+      "text": "Text"
+    },
     "copy_link": "Копировать ссылку",
     "duration": "Продолжительность",
     "enter_curl": "Введите cURL",
@@ -327,6 +365,10 @@
     "invalid_name": "Укажите имя для запроса",
     "method": "Методика",
     "name": "Имя запроса",
+    "new": "New Request",
+    "override": "Override",
+    "override_help": "Set <kbd>Content-Type</kbd> in Headers",
+    "overriden": "Overridden",
     "parameter_list": "Параметры запроса",
     "parameters": "Параметры",
     "path": "Путь",
@@ -339,13 +381,16 @@
     "save_as": "Сохранить как",
     "saved": "Запрос сохранен",
     "share": "Делиться",
+    "share_description": "Share Hoppscotch with your friends",
     "title": "Запрос",
     "type": "Тип запроса",
     "url": "URL",
-    "variables": "Переменные"
+    "variables": "Переменные",
+    "view_my_links": "View my links"
   },
   "response": {
     "body": "Тело ответа",
+    "filter_response_body": "Filter JSON response body (uses JSONPath syntax)",
     "headers": "Заголовки",
     "html": "HTML",
     "image": "Изображение",
@@ -378,6 +423,7 @@
     "extension_version": "Версия расширения",
     "extensions": "Расширения",
     "extensions_use_toggle": "Используйте расширение браузера для отправки запросов (если есть)",
+    "follow": "Follow Us",
     "font_size": "Размер шрифта",
     "font_size_large": "Большой",
     "font_size_medium": "Середина",
@@ -396,6 +442,8 @@
     "proxy_use_toggle": "Используйте промежуточное ПО прокси для отправки запросов",
     "read_the": "Прочтите",
     "reset_default": "Восстановление значений по умолчанию",
+    "short_codes": "Short codes",
+    "short_codes_description": "Short codes which were created by you.",
     "sidebar_on_left": "Панель слева",
     "sync": "Синхронизировать",
     "sync_collections": "Коллекции",
@@ -409,7 +457,17 @@
     "theme_description": "Настройте тему своего приложения.",
     "use_experimental_url_bar": "Использовать экспериментальную строку URL с выделением среды",
     "user": "Пользователь",
+    "verified_email": "Verified email",
     "verify_email": "Подтвердить почту"
+  },
+  "shortcodes": {
+    "actions": "Actions",
+    "created_on": "Created on",
+    "deleted": "Shortcode deleted",
+    "method": "Method",
+    "not_found": "Shortcode not found",
+    "short_code": "Short code",
+    "url": "URL"
   },
   "shortcut": {
     "general": {
@@ -449,6 +507,11 @@
       "send_request": "Послать запрос",
       "title": "Запрос"
     },
+    "response": {
+      "copy": "Copy response to clipboard",
+      "download": "Download response as file",
+      "title": "Response"
+    },
     "theme": {
       "black": "Switch  theme to black mode",
       "dark": "Switch  theme to  dark mode",
@@ -459,11 +522,13 @@
   },
   "show": {
     "code": "Показать код",
+    "collection": "Expand Collection Panel",
     "more": "Показать больше",
     "sidebar": "Показать боковую панель"
   },
   "socketio": {
     "communication": "Коммуникация",
+    "connection_not_authorized": "This SocketIO connection does not use any authentication.",
     "event_name": "Название события",
     "events": "События",
     "log": "Лог",
@@ -481,6 +546,9 @@
     "connected": "Связаны",
     "connected_to": "Подключено к {name}",
     "connecting_to": "Подключение к {name} ...",
+    "connection_error": "Failed to connect",
+    "connection_failed": "Connection failed",
+    "connection_lost": "Connection lost",
     "copied_to_clipboard": "Скопировано в буфер обмена",
     "deleted": "Удалено",
     "deprecated": "УСТАРЕЛО",
@@ -495,8 +563,17 @@
     "history_deleted": "История удалена",
     "linewrap": "Обернуть линии",
     "loading": "Загрузка...",
+    "message_received": "Message: {message} arrived on topic: {topic}",
+    "mqtt_subscription_failed": "Something went wrong while subscribing to topic: {topic}",
     "none": "Никто",
     "nothing_found": "Ничего не найдено для",
+    "published_error": "Something went wrong while publishing msg: {topic} to topic: {message}",
+    "published_message": "Published message: {message} to topic: {topic}",
+    "reconnection_error": "Failed to reconnect",
+    "subscribed_failed": "Failed to subscribe to topic: {topic}",
+    "subscribed_success": "Successfully subscribed to topic: {topic}",
+    "unsubscribed_failed": "Failed to unsubscribe from topic: {topic}",
+    "unsubscribed_success": "Successfully unsubscribed from topic: {topic}",
     "waiting_send_request": "Ожидание отправки запроса"
   },
   "support": {
@@ -505,6 +582,7 @@
     "community": "Задавайте вопросы и помогайте другим",
     "documentation": "Узнать больше о Hoppscotch",
     "forum": "Задавайте вопросы и получайте ответы",
+    "github": "Follow us on Github",
     "shortcuts": "Просматривайте приложение быстрее",
     "team": "Свяжитесь с командой",
     "title": "Служба поддержки",
@@ -578,6 +656,11 @@
     "title": "Команды",
     "we_sent_invite_link": "Мы отправили все приглашения!",
     "we_sent_invite_link_description": "Попросите тех, кого Вы пригласили, проверить их почтовые ящики. Им нужно перейди по ссылке, чтобы подтвердить вступление в эту команду."
+  },
+  "team_environment": {
+    "deleted": "Environment Deleted",
+    "duplicate": "Environment Duplicated",
+    "not_found": "Environment not found."
   },
   "test": {
     "failed": "Тест не пройден",
